@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  color: #fff;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;    
+  animation: Gradient-Animation 12s ease infinite;
+}
+
+
+@keyframes Gradient-Animation {
+  0% {
+      background-position: 0% 50%
+  }
+  50% {
+      background-position: 100% 50%
+  }
+  100% {
+      background-position: 0% 50%
+  }
+}
+
+img {
+  border-radius: 50%;
+}
+
+.profile-picture {
+  /* display: block; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  border: 2px solid;
+  margin-top: 2%;
+  height: auto;
+  max-width: 120px;
+}
+
+.profile-name {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 140%;
+}
+
+.link-box {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid white;
+    width: 30em;
+    display: block;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 40px;
+    /* width: 40%; */    
+    /* font-size: 110%; */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: color 1s; 
+}
+
+.bottom-text {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #000;
+  background: #fff;
+}
+
+.image-txt-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
